@@ -68,4 +68,11 @@ public abstract class Classe {
     public void setConstituicao(Integer constituicao) {
         this.constituicao = constituicao;
     }
+
+    public int GerarModificador(Integer atributo){
+
+        return (atributo - 10)/2;
+    }
+
+
 }
