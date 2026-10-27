@@ -1,16 +1,15 @@
 package entities;
 
-import java.util.ArrayList;
+import entities.Classes.Classe;
 
 public class Jogador {
 
     private String nome;
-    private Integer nivel;
+    private Integer nivel = 1;
     private Classe classe;
 
-    public Jogador(String nome, Integer nivel, Classe classe) {
+    public Jogador(String nome, Classe classe) {
         this.nome = nome;
-        this.nivel = nivel;
         this.classe = classe;
     }
 

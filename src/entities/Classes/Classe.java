@@ -1,4 +1,4 @@
-package entities;
+package entities.Classes;
 
 public abstract class Classe {
 
@@ -74,5 +74,15 @@ public abstract class Classe {
         return (atributo - 10)/2;
     }
 
-
+    @Override
+    public String toString() {
+        return "Classe{" +
+                "forca=" + forca +
+                ", destreza=" + destreza +
+                ", carisma=" + carisma +
+                ", inteligencia=" + inteligencia +
+                ", sabedoria=" + sabedoria +
+                ", constituicao=" + constituicao +
+                '}';
+    }
 }

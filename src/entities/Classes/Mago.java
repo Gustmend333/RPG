@@ -1,12 +1,11 @@
-package entities;
+package entities.Classes;
 
-public class Mago extends Classe{
+public class Mago extends Classe {
 
     public Mago(Integer forca, Integer destreza, Integer carisma, Integer inteligencia, Integer sabedoria, Integer constituicao) {
         super(forca, destreza, carisma, inteligencia, sabedoria, constituicao);
     }
 
-
-
-
+    public Mago() {
+    }
 }
