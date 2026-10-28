@@ -1,4 +1,4 @@
-package entities;
+package entities.Enums;
 
 import entities.Classes.*;
 
